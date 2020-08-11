@@ -1,0 +1,27 @@
+{
+  "name": "test-express-openapi",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha spec.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-normalize-query-params-middleware": "^0.5.0",
+    "express-openapi": "^7.0.0",
+    "openapi-framework": "^7.0.0",
+    "openapi-types": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/ajv": "^1.0.0",
+    "@types/express": "^4.16.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1",
+    "multer": "^1.4.1",
+    "supertest": "^4.0.2"
+  }
+}

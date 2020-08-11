@@ -1,0 +1,1 @@
+just to illustrate https://github.com/kogosoftwarellc/open-api/issues/677
